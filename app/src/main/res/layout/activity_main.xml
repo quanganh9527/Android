@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.admin.myapplication.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bai1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Onclick in XML">
+
+            </Button>
+
+            <Button
+                android:id="@+id/bai2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Inline anonymous listener">
+
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bai3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Activity is listener">
+
+            </Button>
+
+            <Button
+                android:id="@+id/bai4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.Listener in variable">
+
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bai5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.Explicit listener class">
+
+            </Button>
+
+            <Button
+                android:id="@+id/bai6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.View Subclassing">
+
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+
