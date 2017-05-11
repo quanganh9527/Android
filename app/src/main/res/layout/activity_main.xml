@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.bai12.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f51f"
+        android:text="Thông tin hóa đơn:"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tên khách hàng:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Số lượng sách:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/ed2"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+
+            <CheckBox
+                android:id="@+id/check"
+                android:text="Khách hàng là Vip"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Thành Tiền:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:background="#ccc5c5"
+                android:textColor="#00ff55"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/tinhtien"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tính TT"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/tiep"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tiếp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/thongke"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Thống kê"
+                android:textAllCaps="false" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f7ff00"
+            android:text="Thông tin thống kê: "
+            android:textSize="20sp" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tổng số KH:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/e1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Tổng số KH là Vip:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/e2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Tổng tiền:"
+                android:layout_weight="1"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/e3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      />
+</LinearLayout>
