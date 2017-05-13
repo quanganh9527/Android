@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mayarray">
+        <item>Trần Văn A</item>
+        <item>Trần Văn B</item>
+        <item>Trần Văn C</item>
+        <item>Trần Văn D</item>
+    </string-array>
+</resources>
